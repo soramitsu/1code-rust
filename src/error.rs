@@ -11,6 +11,8 @@ pub enum Error {
 
     Eof,
     Syntax,
+    ExpectedNull,
+    ExpectedBoolean,
     ExpectedInteger,
     ExpectedString,
     ExpectedList,
